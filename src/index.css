@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+*{ /* the star means that every element will have this styling listed below.*/
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +14,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ margin: 0% 10%;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h3{
+  font-size:1rem;
+  color:#673C33;
+}
+h4{
+  font-size:1rem;
+  color:#673C33;
+  line-height:2.5rem;
+  margin:2rem 0rem;
+}
+a{
+  color:#673C33;
+
 }
